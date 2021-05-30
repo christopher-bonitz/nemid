@@ -1,3 +1,7 @@
+# Fork disabling certificationDigests checks.
+
+Nobody have time for that.
+
 # Nem-id integration
 
 A PHP Laravel library for using the Danish NemID for authenticating a user.
