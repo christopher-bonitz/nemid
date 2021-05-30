@@ -37,8 +37,7 @@ return [
         ],
 
         // Check for certificate matching after login
-        'certificationDigests' => [
-        ],
+        //'certificationDigests' => [], //Asking the implementer to grab a root cert just to confirm Nets are who they say they are? How is that our problme?
         'checkOcsp' => true, // The certificate can be validated through a external request
         'proxy'     => false, // Since you only have 10 ip whitelisted, it can be smart to proxy the ip calls
     ],
